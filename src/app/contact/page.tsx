@@ -9,9 +9,9 @@ export default function ContactPage() {
 
         <NavBar />
 
-        <div className="relative mx-auto flex w-full max-w-6xl flex-col gap-12 px-6 pb-20 pt-28 lg:flex-row lg:items-start lg:justify-between">
+        <div className="relative mx-auto flex w-full max-w-6xl flex-col gap-12 px-5 pb-16 pt-24 sm:px-6 sm:pb-20 sm:pt-28 lg:flex-row lg:items-start lg:justify-between">
           <div className="max-w-md">
-            <div className="text-[clamp(40px,6vw,72px)] font-black uppercase tracking-tight leading-[0.9]">
+            <div className="text-[clamp(32px,8vw,64px)] font-black uppercase tracking-tight leading-[0.9] sm:text-[clamp(40px,6vw,72px)]">
               Contact Us
             </div>
             <div className="mt-8 space-y-6 text-sm uppercase tracking-[0.2em] text-white/70">
@@ -30,7 +30,7 @@ export default function ContactPage() {
           <div className="relative w-full max-w-md">
             <div className="absolute -inset-4 rounded-3xl border border-white/10" />
             <div className="absolute -inset-4 rounded-3xl" />
-            <div className="relative rounded-3xl bg-neutral-900/80 p-8 shadow-2xl">
+            <div className="relative rounded-3xl bg-neutral-900/80 p-6 shadow-2xl sm:p-8">
               <div className="text-sm uppercase tracking-[0.2em] text-white/70">
                 Contact form
               </div>

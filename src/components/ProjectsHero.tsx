@@ -2,7 +2,7 @@ import NavBar from "./NavBar";
 
 export default function ProjectsHero() {
   return (
-    <section className="relative h-[60vh] min-h-[520px] w-full overflow-hidden">
+    <section className="relative h-[50vh] min-h-[360px] w-full overflow-hidden sm:h-[60vh] sm:min-h-[520px]">
       <div className="absolute inset-0 bg-black bg-[url('/projects/hero-projects.jpg')] bg-cover bg-[position:center_top] bg-no-repeat" />
       <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/35 to-black/75" />
 

@@ -20,26 +20,26 @@ export default function Home() {
 
       <div className="absolute inset-0 z-10 -translate-y-[47px]">
         <div className={`${bebas.className} absolute inset-0`}>
-          <div className="absolute left-6 sm:left-10 lg:left-14 top-24 sm:top-28 lg:top-32 text-white drop-shadow-[0_6px_18px_rgba(0,0,0,0.6)]">
-            <div className="inline-block origin-left scale-x-[1.12] leading-[0.9] text-[clamp(56px,9.2vw,150px)]">
+          <div className="relative px-6 pt-24 text-white drop-shadow-[0_6px_18px_rgba(0,0,0,0.6)] sm:px-10 md:absolute md:left-6 md:top-24 md:px-0 md:pt-0 lg:left-14 lg:top-32">
+            <div className="inline-block origin-left scale-x-[1.12] leading-[0.9] text-[clamp(40px,10vw,96px)] md:text-[clamp(56px,9.2vw,150px)]">
               AESTHETICS IN EVERY
             </div>
-            <div className="leading-[0.9] text-[clamp(56px,9.2vw,150px)]">
+            <div className="leading-[0.9] text-[clamp(40px,10vw,96px)] md:text-[clamp(56px,9.2vw,150px)]">
               DETAIL:
             </div>
           </div>
 
-          <div className="absolute left-[815px] top-[calc(11rem+23px)] sm:top-[calc(13rem+23px)] lg:top-[calc(15rem+23px)] text-white drop-shadow-[0_6px_18px_rgba(0,0,0,0.6)]">
-            <div className="inline-block origin-left scale-x-[1.18] leading-[0.9] text-[clamp(64px,10vw,160px)]">
+          <div className="relative mt-6 px-6 text-white drop-shadow-[0_6px_18px_rgba(0,0,0,0.6)] sm:px-10 md:absolute md:left-[815px] md:top-[calc(11rem+23px)] md:mt-0 md:px-0 md:text-right lg:top-[calc(15rem+23px)]">
+            <div className="inline-block origin-left scale-x-[1.18] leading-[0.9] text-[clamp(40px,11vw,96px)] md:text-[clamp(64px,10vw,160px)]">
               YOUR
             </div>
           </div>
 
-        <div className="absolute left-[calc(100%-645px)] top-[calc(8rem+105px)] sm:top-[calc(9rem+105px)] lg:top-[calc(10rem+105px)] pr-[200px] text-white drop-shadow-[0_6px_18px_rgba(0,0,0,0.6)]">
-            <div className="translate-x-[300px] leading-[0.9] text-[clamp(64px,10vw,160px)]">
+          <div className="relative mt-2 px-6 text-white drop-shadow-[0_6px_18px_rgba(0,0,0,0.6)] sm:px-10 md:absolute md:left-[calc(100%-645px)] md:top-[calc(8rem+105px)] md:mt-0 md:px-0 lg:top-[calc(10rem+105px)]">
+            <div className="leading-[0.9] text-[clamp(40px,11vw,96px)] md:translate-x-[300px] md:text-[clamp(64px,10vw,160px)]">
               IDEAL
             </div>
-            <div className="inline-block translate-x-[180px] origin-right scale-x-[1.12] leading-[0.9] text-[clamp(64px,10vw,160px)]">
+            <div className="inline-block origin-right scale-x-[1.12] leading-[0.9] text-[clamp(40px,11vw,96px)] md:translate-x-[180px] md:text-[clamp(64px,10vw,160px)]">
               INTERIOR
             </div>
           </div>
@@ -50,7 +50,7 @@ export default function Home() {
       <a
         href="/contact"
         aria-label="Get in touch"
-        className="absolute right-10 sm:right-16 lg:right-20 top-[calc(58%+176px)] -translate-y-1/2 z-10 flex h-44 w-44 sm:h-52 sm:w-52 lg:h-60 lg:w-60 items-center justify-center rounded-full border border-white/40 text-sm uppercase tracking-[0.2em] text-white/80 transition-colors hover:border-white/70 hover:text-white"
+        className="absolute bottom-10 left-1/2 z-10 flex h-32 w-32 -translate-x-1/2 items-center justify-center rounded-full border border-white/40 text-[10px] uppercase tracking-[0.2em] text-white/80 transition-colors hover:border-white/70 hover:text-white sm:bottom-12 sm:h-40 sm:w-40 sm:text-xs md:left-auto md:right-10 md:top-[calc(58%+176px)] md:-translate-x-0 md:-translate-y-1/2 md:bottom-auto md:h-44 md:w-44 lg:right-20 lg:h-60 lg:w-60"
       >
         Get in touch
       </a>
