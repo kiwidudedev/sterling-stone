@@ -13,38 +13,61 @@ export default function Home() {
       <NavBar />
 
       <div className="absolute left-0 right-0 top-5 z-10 flex justify-center">
-        <span className="text-[11px] sm:text-xs uppercase tracking-[0.3em] text-white/85 drop-shadow-[0_2px_10px_rgba(0,0,0,0.55)]">
+        <span className="hidden text-[11px] sm:inline sm:text-xs uppercase tracking-[0.3em] text-white/85 drop-shadow-[0_2px_10px_rgba(0,0,0,0.55)]">
           STERLING &amp; STONE
         </span>
       </div>
 
       <div className="absolute inset-0 z-10 -translate-y-[47px]">
         <div className={`${bebas.className} absolute inset-0`}>
-          <div className="relative px-6 pt-24 text-white drop-shadow-[0_6px_18px_rgba(0,0,0,0.6)] sm:px-10 md:absolute md:left-6 md:top-24 md:px-0 md:pt-0 lg:left-14 lg:top-32">
-            <div className="inline-block origin-left scale-x-[1.12] leading-[0.9] text-[clamp(40px,10vw,96px)] md:text-[clamp(56px,9.2vw,150px)]">
-              AESTHETICS IN EVERY
+          <div className="md:hidden mt-[20px]">
+            <div className="px-6 pt-24 text-white drop-shadow-[0_6px_18px_rgba(0,0,0,0.6)]">
+              <div className="inline-block origin-left scale-x-[1.08] leading-[0.92] text-[clamp(34px,9.5vw,64px)]">
+                AESTHETICS IN EVERY
+              </div>
+              <div className="leading-[0.92] text-[clamp(34px,9.5vw,64px)]">
+                DETAIL:
+              </div>
             </div>
-            <div className="leading-[0.9] text-[clamp(40px,10vw,96px)] md:text-[clamp(56px,9.2vw,150px)]">
-              DETAIL:
+            <div className="mt-6 px-6 text-white drop-shadow-[0_6px_18px_rgba(0,0,0,0.6)]">
+              <div className="leading-[0.9] text-[clamp(36px,10vw,72px)]">
+                YOUR
+              </div>
+              <div className="leading-[0.9] text-[clamp(36px,10vw,72px)]">
+                IDEAL
+              </div>
+              <div className="inline-block origin-right scale-x-[1.08] leading-[0.9] text-[clamp(36px,10vw,72px)]">
+                INTERIOR
+              </div>
             </div>
           </div>
 
-          <div className="relative mt-6 px-6 text-white drop-shadow-[0_6px_18px_rgba(0,0,0,0.6)] sm:px-10 md:absolute md:left-[815px] md:top-[calc(11rem+23px)] md:mt-0 md:px-0 md:text-right lg:top-[calc(15rem+23px)]">
-            <div className="inline-block origin-left scale-x-[1.18] leading-[0.9] text-[clamp(40px,11vw,96px)] md:text-[clamp(64px,10vw,160px)]">
-              YOUR
+          <div className="hidden md:block">
+            <div className="absolute left-6 top-24 text-white drop-shadow-[0_6px_18px_rgba(0,0,0,0.6)] lg:left-14 lg:top-32">
+              <div className="inline-block origin-left scale-x-[1.12] leading-[0.9] text-[clamp(56px,9.2vw,150px)]">
+                AESTHETICS IN EVERY
+              </div>
+              <div className="leading-[0.9] text-[clamp(56px,9.2vw,150px)]">
+                DETAIL:
+              </div>
             </div>
-          </div>
 
-          <div className="relative mt-2 px-6 text-white drop-shadow-[0_6px_18px_rgba(0,0,0,0.6)] sm:px-10 md:absolute md:left-[calc(100%-645px)] md:top-[calc(8rem+105px)] md:mt-0 md:px-0 lg:top-[calc(10rem+105px)]">
-            <div className="leading-[0.9] text-[clamp(40px,11vw,96px)] md:translate-x-[300px] md:text-[clamp(64px,10vw,160px)]">
-              IDEAL
+            <div className="absolute left-[815px] top-[calc(11rem+23px)] text-white drop-shadow-[0_6px_18px_rgba(0,0,0,0.6)] lg:top-[calc(15rem+23px)]">
+              <div className="inline-block origin-left scale-x-[1.18] leading-[0.9] text-[clamp(64px,10vw,160px)]">
+                YOUR
+              </div>
             </div>
-            <div className="inline-block origin-right scale-x-[1.12] leading-[0.9] text-[clamp(40px,11vw,96px)] md:translate-x-[180px] md:text-[clamp(64px,10vw,160px)]">
-              INTERIOR
+
+            <div className="absolute left-[calc(100%-645px)] top-[calc(8rem+105px)] text-white drop-shadow-[0_6px_18px_rgba(0,0,0,0.6)] lg:top-[calc(10rem+105px)]">
+              <div className="translate-x-[300px] leading-[0.9] text-[clamp(64px,10vw,160px)]">
+                IDEAL
+              </div>
+              <div className="inline-block translate-x-[180px] origin-right scale-x-[1.12] leading-[0.9] text-[clamp(64px,10vw,160px)]">
+                INTERIOR
+              </div>
             </div>
           </div>
         </div>
-
       </div>
 
       <a
