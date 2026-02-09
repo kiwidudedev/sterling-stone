@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 import { useState } from "react";
 
 type ProjectCardProps = {
@@ -18,10 +17,7 @@ export default function ProjectCard({
   const [hasError, setHasError] = useState(false);
 
   return (
-    <Link
-      href={`/projects/${slug}`}
-      className="group block rounded-2xl bg-neutral-900/70 p-4 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl"
-    >
+    <div className="group block cursor-default rounded-2xl bg-neutral-900/70 p-4">
       <div
         key={image}
         className="relative aspect-[16/9] w-full overflow-hidden rounded-xl bg-neutral-800"
@@ -45,6 +41,6 @@ export default function ProjectCard({
           {title}
         </div>
       </div>
-    </Link>
+    </div>
   );
 }
