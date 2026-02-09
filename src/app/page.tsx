@@ -36,10 +36,10 @@ export default function Home() {
           </div>
 
         <div className="absolute left-[calc(100%-645px)] top-[calc(8rem+105px)] sm:top-[calc(9rem+105px)] lg:top-[calc(10rem+105px)] pr-[200px] text-white drop-shadow-[0_6px_18px_rgba(0,0,0,0.6)]">
-            <div className="leading-[0.9] text-[clamp(64px,10vw,160px)]">
+            <div className="translate-x-[300px] leading-[0.9] text-[clamp(64px,10vw,160px)]">
               IDEAL
             </div>
-            <div className="inline-block origin-right scale-x-[1.12] leading-[0.9] text-[clamp(64px,10vw,160px)]">
+            <div className="inline-block translate-x-[180px] origin-right scale-x-[1.12] leading-[0.9] text-[clamp(64px,10vw,160px)]">
               INTERIOR
             </div>
           </div>
@@ -50,7 +50,7 @@ export default function Home() {
       <a
         href="/contact"
         aria-label="Get in touch"
-        className="absolute right-10 sm:right-16 lg:right-20 top-[calc(58%+151px)] -translate-y-1/2 z-10 flex h-44 w-44 sm:h-52 sm:w-52 lg:h-60 lg:w-60 items-center justify-center rounded-full border border-white/40 text-sm uppercase tracking-[0.2em] text-white/80 transition-colors hover:border-white/70 hover:text-white"
+        className="absolute right-10 sm:right-16 lg:right-20 top-[calc(58%+176px)] -translate-y-1/2 z-10 flex h-44 w-44 sm:h-52 sm:w-52 lg:h-60 lg:w-60 items-center justify-center rounded-full border border-white/40 text-sm uppercase tracking-[0.2em] text-white/80 transition-colors hover:border-white/70 hover:text-white"
       >
         Get in touch
       </a>

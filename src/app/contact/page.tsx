@@ -17,16 +17,12 @@ export default function ContactPage() {
             <div className="mt-8 space-y-6 text-sm uppercase tracking-[0.2em] text-white/70">
               <div>
                 <div className="text-white/50">Studio</div>
-                <div className="mt-2 text-white/90">
-                  507-495 Flatbush Ave
-                </div>
-                <div className="text-white/90">New York, Brooklyn</div>
-                <div className="text-white/90">NY 11225</div>
+                <div className="mt-2 text-white/90">Queenstown,</div>
+                <div className="text-white/90">New Zealand</div>
               </div>
               <div>
                 <div className="text-white/50">Contacts</div>
                 <div className="mt-2 text-white/90">hello@sterlingstone.com</div>
-                <div className="text-white/90">(415) 500 7686</div>
               </div>
             </div>
           </div>

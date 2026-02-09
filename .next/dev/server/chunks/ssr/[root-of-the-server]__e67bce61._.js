@@ -39,22 +39,13 @@ function NavBar() {
                             lineNumber: 11,
                             columnNumber: 11
                         }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                            href: "#about",
-                            className: linkClasses,
-                            children: "About"
-                        }, void 0, false, {
-                            fileName: "[project]/src/components/NavBar.tsx",
-                            lineNumber: 14,
-                            columnNumber: 11
-                        }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                             href: "/projects",
                             className: linkClasses,
                             children: "Projects"
                         }, void 0, false, {
                             fileName: "[project]/src/components/NavBar.tsx",
-                            lineNumber: 17,
+                            lineNumber: 14,
                             columnNumber: 11
                         }, this)
                     ]
@@ -70,12 +61,12 @@ function NavBar() {
                         children: "STERLING & STONE"
                     }, void 0, false, {
                         fileName: "[project]/src/components/NavBar.tsx",
-                        lineNumber: 23,
+                        lineNumber: 20,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/NavBar.tsx",
-                    lineNumber: 22,
+                    lineNumber: 19,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -86,12 +77,12 @@ function NavBar() {
                         children: "Contact"
                     }, void 0, false, {
                         fileName: "[project]/src/components/NavBar.tsx",
-                        lineNumber: 27,
+                        lineNumber: 24,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/NavBar.tsx",
-                    lineNumber: 26,
+                    lineNumber: 23,
                     columnNumber: 9
                 }, this)
             ]
@@ -228,7 +219,7 @@ function Home() {
                             className: "absolute left-[calc(100%-645px)] top-[calc(8rem+105px)] sm:top-[calc(9rem+105px)] lg:top-[calc(10rem+105px)] pr-[200px] text-white drop-shadow-[0_6px_18px_rgba(0,0,0,0.6)]",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "leading-[0.9] text-[clamp(64px,10vw,160px)]",
+                                    className: "translate-x-[300px] leading-[0.9] text-[clamp(64px,10vw,160px)]",
                                     children: "IDEAL"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/page.tsx",
@@ -236,7 +227,7 @@ function Home() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "inline-block origin-right scale-x-[1.12] leading-[0.9] text-[clamp(64px,10vw,160px)]",
+                                    className: "inline-block translate-x-[180px] origin-right scale-x-[1.12] leading-[0.9] text-[clamp(64px,10vw,160px)]",
                                     children: "INTERIOR"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/page.tsx",
@@ -263,7 +254,7 @@ function Home() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                 href: "/contact",
                 "aria-label": "Get in touch",
-                className: "absolute right-10 sm:right-16 lg:right-20 top-[calc(58%+151px)] -translate-y-1/2 z-10 flex h-44 w-44 sm:h-52 sm:w-52 lg:h-60 lg:w-60 items-center justify-center rounded-full border border-white/40 text-sm uppercase tracking-[0.2em] text-white/80 transition-colors hover:border-white/70 hover:text-white",
+                className: "absolute right-10 sm:right-16 lg:right-20 top-[calc(58%+176px)] -translate-y-1/2 z-10 flex h-44 w-44 sm:h-52 sm:w-52 lg:h-60 lg:w-60 items-center justify-center rounded-full border border-white/40 text-sm uppercase tracking-[0.2em] text-white/80 transition-colors hover:border-white/70 hover:text-white",
                 children: "Get in touch"
             }, void 0, false, {
                 fileName: "[project]/src/app/page.tsx",
