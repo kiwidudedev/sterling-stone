@@ -13,6 +13,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="preload" as="image" href="/hero.jpg" />
+        <link rel="preload" as="image" href="/projects/hero-projects.jpg" />
+        <link rel="preload" as="image" href="/hero-contact.jpg" />
+      </head>
       <body className="bg-black text-white" suppressHydrationWarning>
         {children}
       </body>
