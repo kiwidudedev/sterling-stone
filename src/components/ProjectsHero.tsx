@@ -8,7 +8,7 @@ export default function ProjectsHero() {
 
       <NavBar />
 
-      <div className="absolute inset-x-0 top-1/2 -translate-y-1/2">
+      <div className="absolute inset-x-0 top-1/2 -translate-y-[calc(50%+28px)]">
         <div className="mx-auto w-full max-w-7xl px-6">
           <div className="relative">
             <div className="relative text-center text-white">
